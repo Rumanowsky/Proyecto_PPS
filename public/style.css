@@ -1,0 +1,63 @@
+/* Estilos sencillos adaptados a pantalla de móvil */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+.caja {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-rojo {
+    background-color: #cc0000;
+}
+
+.boton-gris {
+    background-color: #666666;
+}
+
+.enlace-boton {
+    display: block;
+    text-align: center;
+    background-color: #0066cc;
+    color: white;
+    padding: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.producto {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.ok {
+    color: green;
+    font-weight: bold;
+}
